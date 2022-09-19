@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="afspraakformulier Tandartspraktijk Kieskeurig">
+  <title>Tandartspraktijk Kieskeurig</title>
+</head>
+<body>
+<h2>Tandartsafspraak</h2>
+<p>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum sit amet quam ac placerat. Sed turpis sem, rhoncus eu sapien eget, facilisis imperdiet nunc.<br>Suspendisse nec velit vitae est fermentum cursus sit amet nec diam. Donec ac malesuada erat, auctor fringilla lorem. Donec pulvinar, libero nec ornare condimentum,<br>metus ante consectetur tortor, non vestibulum magna metus non arcu. Sed pulvinar leo et orci gravida semper. Proin eget orci tortor. Mauris nec lorem lectus.<br>Pellentesque sodales est turpis, in vestibulum augue maximus in.
+
+Donec tincidunt rhoncus pulvinar. Nunc tempor consectetur fermentum. Donec a metus eleifend,<br>sodales erat sit amet, aliquam enim. Curabitur libero orci, ultrices id dapibus id, rutrum id ante. Fusce mollis, ipsum non dapibus eleifend, mi elit gravida enim, at feugiat libero<br>lectus nec nibh. In blandit felis tellus, et ullamcorper leo egestas in. Donec ac aliquet ligula. In mollis aliquet neque. Nulla quis varius eros.<br>Nunc ac ipsum a tellus bibendum imperdiet eu nec leo.
+</p>
+<p>
+<img src="afbeeldingenles7/drills.jpg" alt="boren" title="oops" width="300" height="200">
+<img src="afbeeldingenles7/hammerchisel.jpg" alt="aanpassen" title="oopsier" width="300" height="225">
+<img src="afbeeldingenles7/pliers.jpg" alt="afmaken" title="the oopsiest" width="300" height="150">
+</p>
+<br>
+<p>
+  <form id="contactform" action="https://formspree.io/f/mgeqoykr" method="post">
+
+<!-- Start Persoonlijke gegevens -->
+
+    <fieldset>
+    <legend><h3><u>Persoonlijke gegevens:</u></h3></legend>
+     <table width="500" border="0">
+     <tbody>
+       <tr>
+         <td width="160"><label for="naam">Naam</label></td>
+         <td width="340">
+           <input type="text" id="naam" name="naam">
+         </td>
+       </tr>
+       <tr>
+         <td width="160"><label for="adres">Adres</label></td>
+         <td width="340">
+           <input type="text" id="adres" name="adres">
+         </td>
+       </tr>
+       <tr>
+         <td width="160"><label for="woonplaats">Woonplaats</label></td>
+         <td width="340">
+           <input type="text" id="woonplaats" name="woonplaats">
+         </td>
+       </tr>
+       <tr>
+         <td width="160"><label for="land">Land</label></td>
+         <td width="340">
+           <select name="land" id="land">
+           <option value="nl">Nederland</option>
+           <option value="be">Belgie</option>
+           </select>
+         </td>
+       </tr>
+       <tr>
+         <td width="160"><label for="emailadres">Email</label></td>
+         <td width="340">
+           <input type="email" id="emailadres" name="emailadres">
+         </td>
+       </tr>
+       <tr>
+         <td width="160"><label for="telnr">Telefoonnummer</label></td>
+         <td width="340">
+           <input type="tel" id="telnr" name="telnr">
+         </td>
+       </tr>
+       <tr>
+         <td width="160"><label for="geslacht">Geslacht</label></td>
+         <td width="340">
+           <input type="radio" id="geslacht" name="geslacht" value="man">Man
+           <input type="radio" id="geslacht" name="geslacht" value="vrouw">Vrouw
+           <input type="radio" id="geslacht" name="geslacht" value="anders">anders
+         </td>
+       </tr>
+       <tr>
+         <td width="160"><label for="geboortedatum">Geboortedatum</label></td>
+         <td width="340">
+           <input type="date" id="geboortedatum" name="geboortedatum" min="1900-01-01">
+         </td>
+       </tr>
+     </tbody>
+     </table>
+    </fieldset>
+
+    <!-- Start Beschrijving klachten -->
+
+    <fieldset>
+    <legend><h3><u>Beschrijving van de klachten:</u></h3></legend>
+     <table width="500" border="0">
+     <tbody>
+       <tr>
+         <td width="160"><label for="symptomen">Symptomen</label></td>
+         <td width="340">
+           <input type="checkbox" id="symptomen" name="symptomen" value="Tanduitval">Tanduitval
+         </td>
+       </tr>
+       <tr>
+         <td width="160">&nbsp;</td>
+         <td width="340">
+           <input type="checkbox" id="symptomen" name="symptomen" value="Tandrot">Tandrot
+         </td>
+       </tr>
+       <tr>
+         <td width="160">&nbsp;</td>
+         <td width="340">
+           <input type="checkbox" id="symptomen" name="symptomen" value="Pijn">Pijn
+         </td>
+       </tr>
+       <tr>
+         <td width="160">&nbsp;</td>
+         <td width="340">
+           <input type="checkbox" id="symptomen" name="symptomen" value="Scheefzittendheid">Scheefzittendheid:)
+         </td>
+       </tr>
+       <tr>
+         <td width="160">&nbsp;</td>
+         <td width="340">
+           <input type="checkbox" id="symptomen" name="symptomen" value="Ernstige verkleuring">Ernstige verkleuring
+         </td>
+       </tr>
+       <tr>
+         <td width="160"><label for="foto">Upload evt. een foto (alleen jpg/jpeg)</label></td>
+         <td width="340">
+           <input type="file" id="foto" name="foto" accept=".jpg,.jpeg">
+         </td>
+       </tr>
+     </tbody>
+     </table>
+    </fieldset>
+
+    <!-- Start Toelichting klachten -->
+
+    <fieldset>
+    <legend><h3><u>Toelichting van de klachten:</u></h3></legend>
+     <table width="500" border="0">
+     <tbody>
+       <tr>
+         <td width="160"><label for="bericht">Geef indien gewenst een korte toelichting (max 1500 tekens)</label></td>
+         <td width="340">
+           <textarea id="bericht" name="bericht" maxlength="1500"></textarea>
+         </td>
+       </tr>
+       <tr>
+         <td width="160"><label for="datumafspraak">Kies datum voor afspraak</label></td>
+         <td width="340">
+           <input type="date" id="datumafspraak" name="datumafspraak" min="2022-09-19">
+         </td>
+       </tr>
+       <tr>
+         <td width="160">&nbsp;</td>
+         <td width="340">&nbsp;</td>
+       </tr>
+       <tr>
+         <td width="160">&nbsp;</td>
+         <td width="340">
+           <button type="submit" value="Verzenden"><b>Verzenden</b></button>
+         </td>
+       </tr>
+     </tbody>
+     </table>
+    </fieldset>
+    </form>
+</p>
+</body>
+</html>
