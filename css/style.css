@@ -1,0 +1,91 @@
+﻿h1{
+    color:antiquewhite;
+}
+#divheader{
+    background-color:#8b4513;
+    width:450px;
+    height:100px;
+}
+#divfooter{
+    background-color:#deb887;
+    width:450px;
+    height:50px;
+}
+.cellwidth{
+    width:100px;
+}
+#a1{
+    background-color:#ffebcd;
+}
+#a2 {
+    background-color: #6495ed;
+}
+#a3 {
+    background-color: #55fb95;
+}
+#a4 {
+    background-color: #c0c0c0;
+}
+#b1 {
+    background-color: #8b4513;
+}
+#b2 {
+    background-color: #00005b;
+
+}
+#b3 {
+    background-color: #556b2f;
+}
+#b4 {
+    background-color: #708090;
+}
+#c1 {
+    background-color: #cd853f;
+}
+#c2 {
+    background-color: #b0c4de;
+}
+#c3 {
+    background-color: #6fbc6f;
+}
+#c4 {
+    background-color: #477979;
+}
+#d1 {
+    background-color: #d2b48c;
+}
+#d2 {
+    background-color: #57cee5;
+}
+#d3 {
+    background-color: #adff2f;
+}
+#d4 {
+    background-color: #808080;
+}
+#word1 {
+    background-color:darkslategray;
+    color:antiquewhite
+}
+#word2 {
+    background-color:azure;
+}
+#word3 {
+    background-color:brown;
+    color:antiquewhite;
+}
+#word4 {
+    background-color:cornflowerblue;
+}
+#word5 {
+    background-color:darkcyan;
+}
+#word6 {
+    background-color:darkkhaki;
+}
+#word7 {
+    background-color:hotpink;
+}
+#word8 {
+    background-color:azure;
+}
